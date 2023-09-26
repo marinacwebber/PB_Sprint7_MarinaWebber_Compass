@@ -1,0 +1,29 @@
+> Os códigos de status HTTP são mensagens importantes que um servidor web envia em resposta a pedidos feitos por programas ou aplicativos. Esses códigos são agrupados em famílias, cada uma com um significado geral.
+
+1xx - Informativo:
+
+- **100 - Continue:** Significa que o servidor recebeu a solicitação e o cliente pode continuar fazendo mais solicitações, se necessário.
+
+2xx - Sucesso:
+
+- **200 - OK:** Indica que a solicitação foi bem-sucedida.
+- **201 - Created:** Indica que a solicitação resultou na criação de um novo recurso.
+- **204 - No Content:** Indica que a solicitação foi bem-sucedida, mas não há conteúdo a ser retornado.
+
+3xx - Redirecionamento:
+
+- **301 - Moved Permanently:** Indica que o recurso foi movido permanentemente para outra URL.
+- **302 - Found:** Indica um redirecionamento temporário para outra URL.
+
+4xx - Erro do Cliente:
+
+- **400 - Bad Request:** Indica que a solicitação do cliente é inválida ou malformada.
+- **401 - Unauthorized:** Indica que o cliente não está autorizado a acessar o recurso.
+- **404 - Not Found:** Indica que o recurso solicitado não foi encontrado no servidor.
+- **403 - Forbidden:** Indica que o acesso ao recurso é proibido, mesmo com autenticação.
+
+5xx - Erro do Servidor:
+
+- **500 - Internal Server Error:** Indica um erro interno do servidor que impediu o processamento da solicitação.
+- **502 - Bad Gateway:** Indica que um servidor intermediário recebeu uma resposta inválida do servidor de destino.
+- **503 - Service Unavailable:** Indica que o servidor não está disponível para processar a solicitação devido a sobrecarga ou manutenção.
