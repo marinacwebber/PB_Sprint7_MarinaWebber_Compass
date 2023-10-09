@@ -58,6 +58,7 @@ Este projeto foi desenvolvido com a ajuda de recursos de várias fontes, incluin
 
 - [Stack Overflow](https://stackoverflow.com/)
 - [Postman](https://www.postman.com/api-documentation-tool/)
+- [Udemy](https://compassuol.udemy.com/course/automacao-de-testes-de-api-com-postman-projeto-de-testes)
 - [Agradeço a equipe Rafael, Jacques, Daniela e aos colegas do time da bolsa] 
 
 ## Licença 📜 
