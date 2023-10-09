@@ -1,0 +1,1260 @@
+{
+	"id": "fa1b6014-d2b2-450f-a065-c383fd981c2a",
+	"name": "Serverest",
+	"timestamp": "2023-10-09T14:25:46.055Z",
+	"collection_id": "30065285-af4b5fcc-c5d7-4983-acb7-bc5512a41b0e",
+	"folder_id": 0,
+	"environment_id": "30065285-9fe7e284-b038-487a-9b3a-a560d9520f31",
+	"totalPass": 91,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-10-09T14:25:43.249Z",
+	"totalFail": 7,
+	"results": [
+		{
+			"id": "45f96fe8-e5d8-4040-9f71-e5d8f512fda1",
+			"name": "POST/login-admin-sc200",
+			"url": "http://localhost:3000/login",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is within an acceptable range": true,
+				"Status code is 200": true,
+				"Message is 'Login realizado com sucesso'": true,
+				"Authorization is present": true
+			},
+			"testPassFailCounts": {
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message is 'Login realizado com sucesso'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Authorization is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Response time is within an acceptable range": true,
+					"Status code is 200": true,
+					"Message is 'Login realizado com sucesso'": true,
+					"Authorization is present": true
+				}
+			]
+		},
+		{
+			"id": "90a229ef-3544-403b-91f9-d33ef0795a9b",
+			"name": "POST/login-admin-sc400-Formato-Email-Incorreto",
+			"url": "http://localhost:3000/login",
+			"time": 3,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response time is within an acceptable range": true,
+				"Status code is 400 Bad Request": true,
+				"Error message is present": true,
+				"Email validation error message": true
+			},
+			"testPassFailCounts": {
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400 Bad Request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Email validation error message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Response time is within an acceptable range": true,
+					"Status code is 400 Bad Request": true,
+					"Error message is present": true,
+					"Email validation error message": true
+				}
+			]
+		},
+		{
+			"id": "da7d1640-5fc8-43e7-962d-71142e706dbe",
+			"name": "POST/login-admin-sc400-Formato-Email-Incorreto",
+			"url": "http://localhost:3000/login",
+			"time": 3,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response time is within an acceptable range": true,
+				"Status code is 400 Bad Request": true,
+				"Error message is present": true,
+				"Email validation error message": true
+			},
+			"testPassFailCounts": {
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400 Bad Request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Email validation error message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Response time is within an acceptable range": true,
+					"Status code is 400 Bad Request": true,
+					"Error message is present": true,
+					"Email validation error message": true
+				}
+			]
+		},
+		{
+			"id": "48af98ed-2a70-4203-8855-79aad30e4018",
+			"name": "POST/login-admin-sc400-Email-em-Branco",
+			"url": "http://localhost:3000/login",
+			"time": 4,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response time is within an acceptable range": true,
+				"Status code is 400 Bad Request": true,
+				"Error message is present": true,
+				"Email validation error message": true
+			},
+			"testPassFailCounts": {
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400 Bad Request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Email validation error message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Response time is within an acceptable range": true,
+					"Status code is 400 Bad Request": true,
+					"Error message is present": true,
+					"Email validation error message": true
+				}
+			]
+		},
+		{
+			"id": "b62592cd-81b0-498e-a1bc-6318d0159b50",
+			"name": "POST/login-admin-sc401-Email-Senha-Invalidos",
+			"url": "http://localhost:3000/login",
+			"time": 5,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Response time is within an acceptable range": true,
+				"Status code is 401 Unauthorized": true,
+				"Error message is present": true,
+				"Error message is 'Email e/ou senha inválidos'": true
+			},
+			"testPassFailCounts": {
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 401 Unauthorized": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message is 'Email e/ou senha inválidos'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Response time is within an acceptable range": true,
+					"Status code is 401 Unauthorized": true,
+					"Error message is present": true,
+					"Error message is 'Email e/ou senha inválidos'": true
+				}
+			]
+		},
+		{
+			"id": "7948c1ad-e734-4552-8813-1d3d4de20330",
+			"name": "POST/login-admin-sc401-Email-Senha-Invalidos",
+			"url": "http://localhost:3000/login",
+			"time": 7,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Response time is within an acceptable range": true,
+				"Status code is 401 Unauthorized": true,
+				"Error message is present": true,
+				"Error message is 'Email e/ou senha inválidos'": true
+			},
+			"testPassFailCounts": {
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 401 Unauthorized": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message is 'Email e/ou senha inválidos'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Response time is within an acceptable range": true,
+					"Status code is 401 Unauthorized": true,
+					"Error message is present": true,
+					"Error message is 'Email e/ou senha inválidos'": true
+				}
+			]
+		},
+		{
+			"id": "63ffe5d6-1d98-48d2-8a71-f23b36039be4",
+			"name": "POST/login-admin-sc503",
+			"url": "http://localhost:3000/login",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is within an acceptable range": true,
+				"Status code is 503": false,
+				"Message is 'O sistema está temporariamente indisponível. Tente novamente mais tarde.'": false,
+				"Authorization is present": true
+			},
+			"testPassFailCounts": {
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 503": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Message is 'O sistema está temporariamente indisponível. Tente novamente mais tarde.'": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Authorization is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Response time is within an acceptable range": true,
+					"Status code is 503": false,
+					"Message is 'O sistema está temporariamente indisponível. Tente novamente mais tarde.'": false,
+					"Authorization is present": true
+				}
+			]
+		},
+		{
+			"id": "b3ea1107-2025-44ab-b9a8-1b8da2c868b5",
+			"name": "POST/usuarios-cadastro-sc201",
+			"url": "http://localhost:3000/usuarios",
+			"time": 5,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Response time is within an acceptable range": true,
+				"Status code is 201": true,
+				"Message is 'Cadastro realizado com sucesso'": true,
+				"Id is not empty": true
+			},
+			"testPassFailCounts": {
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message is 'Cadastro realizado com sucesso'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Id is not empty": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Response time is within an acceptable range": true,
+					"Status code is 201": true,
+					"Message is 'Cadastro realizado com sucesso'": true,
+					"Id is not empty": true
+				}
+			]
+		},
+		{
+			"id": "642b2f27-8c64-46c5-89d4-50dc1cf3f3bd",
+			"name": "POST/usuarios-cadastro-sc201-padrao",
+			"url": "http://localhost:3000/usuarios",
+			"time": 5,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Response time is within an acceptable range": true,
+				"Status code is 201": true,
+				"Message is 'Cadastro realizado com sucesso'": true,
+				"Id is not empty": true
+			},
+			"testPassFailCounts": {
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message is 'Cadastro realizado com sucesso'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Id is not empty": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Response time is within an acceptable range": true,
+					"Status code is 201": true,
+					"Message is 'Cadastro realizado com sucesso'": true,
+					"Id is not empty": true
+				}
+			]
+		},
+		{
+			"id": "b4f6e88e-f4df-444b-98f4-cb5baeac3c7c",
+			"name": "POST/usuarios-cadastro-sc400-Email-sendo-usado",
+			"url": "http://localhost:3000/usuarios",
+			"time": 4,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response time is within an acceptable range": true,
+				"Status code is 400 Bad Request": true,
+				"Error message is present": true,
+				"Email already in use error message": true
+			},
+			"testPassFailCounts": {
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400 Bad Request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Email already in use error message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Response time is within an acceptable range": true,
+					"Status code is 400 Bad Request": true,
+					"Error message is present": true,
+					"Email already in use error message": true
+				}
+			]
+		},
+		{
+			"id": "365afd57-f43f-49b8-bd4b-8549103ea85c",
+			"name": "POST/usuarios-cadastro-sc400-Nome-em-Branco",
+			"url": "http://localhost:3000/usuarios",
+			"time": 4,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response time is within an acceptable range": true,
+				"Status code is 400 Bad Request": true,
+				"Error message is present": true,
+				"Name validation error message": true
+			},
+			"testPassFailCounts": {
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400 Bad Request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Name validation error message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Response time is within an acceptable range": true,
+					"Status code is 400 Bad Request": true,
+					"Error message is present": true,
+					"Name validation error message": true
+				}
+			]
+		},
+		{
+			"id": "c37af453-9fbf-47e3-9ab7-7eef34678e21",
+			"name": "POST/usuarios-cadastro-sc400-Email-em-Branco",
+			"url": "http://localhost:3000/usuarios",
+			"time": 4,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response time is within an acceptable range": true,
+				"Status code is 400 Bad Request": true,
+				"Error message is present": true,
+				"Email validation error message": true
+			},
+			"testPassFailCounts": {
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400 Bad Request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Email validation error message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Response time is within an acceptable range": true,
+					"Status code is 400 Bad Request": true,
+					"Error message is present": true,
+					"Email validation error message": true
+				}
+			]
+		},
+		{
+			"id": "881c45ca-fa4e-4692-9bb4-377064780ca5",
+			"name": "POST/usuarios-cadastro-sc400-Password-em-Branco",
+			"url": "http://localhost:3000/usuarios",
+			"time": 3,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response time is within an acceptable range": true,
+				"Status code is 400 Bad Request": true,
+				"Error message is present": true,
+				"Password validation error message": true
+			},
+			"testPassFailCounts": {
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400 Bad Request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Password validation error message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Response time is within an acceptable range": true,
+					"Status code is 400 Bad Request": true,
+					"Error message is present": true,
+					"Password validation error message": true
+				}
+			]
+		},
+		{
+			"id": "481052f1-5f38-4545-9817-efe50f69cd9b",
+			"name": "POST/usuarios-cadastro-sc400-Email-Invalido",
+			"url": "http://localhost:3000/usuarios",
+			"time": 4,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response time is within an acceptable range": true,
+				"Status code is 400": true,
+				"Error email is present": true,
+				"Error message when using invalid email": true
+			},
+			"testPassFailCounts": {
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error email is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message when using invalid email": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Response time is within an acceptable range": true,
+					"Status code is 400": true,
+					"Error email is present": true,
+					"Error message when using invalid email": true
+				}
+			]
+		},
+		{
+			"id": "e58a5b19-8cef-464c-800c-823be6e30640",
+			"name": "POST/usuarios-cadastro-sc400-Senha-não-Aceita",
+			"url": "http://localhost:3000/usuarios",
+			"time": 4,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Response time is within an acceptable range": true,
+				"Status code is 400 Bad Request": false,
+				"Error message is present": false,
+				"Password less than 5 or more than 10 characters": false
+			},
+			"testPassFailCounts": {
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400 Bad Request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Error message is present": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Password less than 5 or more than 10 characters": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Response time is within an acceptable range": true,
+					"Status code is 400 Bad Request": false,
+					"Error message is present": false,
+					"Password less than 5 or more than 10 characters": false
+				}
+			]
+		},
+		{
+			"id": "31e28b9f-8556-42d1-84e7-447abb610697",
+			"name": "POST/usuarios-cadastro-sc400-Email-Invalido-Provedor-Gmail",
+			"url": "http://localhost:3000/usuarios",
+			"time": 4,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response time is within an acceptable range": true,
+				"Status code is 400 Bad Request": true,
+				"Error message is present": false,
+				"Email validation error message": false
+			},
+			"testPassFailCounts": {
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400 Bad Request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message is present": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Email validation error message": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Response time is within an acceptable range": true,
+					"Status code is 400 Bad Request": true,
+					"Error message is present": false,
+					"Email validation error message": false
+				}
+			]
+		},
+		{
+			"id": "e2220f60-6627-4234-80f3-370e60b3cafb",
+			"name": "PUT/usuarios-editar-sc200",
+			"url": "http://localhost:3000/usuarios/LHOugBIyNQ429yj1",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Success message is 'Registro alterado com sucesso'": true,
+				"Returned ID matches the requested ID": true,
+				"Attributes of updated user matches request attributes": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Success message is 'Registro alterado com sucesso'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Returned ID matches the requested ID": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Attributes of updated user matches request attributes": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Success message is 'Registro alterado com sucesso'": true,
+					"Returned ID matches the requested ID": true,
+					"Attributes of updated user matches request attributes": true
+				}
+			]
+		},
+		{
+			"id": "e1467441-0dfe-462c-bca6-66a03c325cfa",
+			"name": "PUT/usuarios-editar-sc201-NovoID",
+			"url": "http://localhost:3000/usuarios/82142162",
+			"time": 5,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"ID in response matches the requested ID": true,
+				"Success message is 'Cadastro realizado com sucesso'": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"ID in response matches the requested ID": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Success message is 'Cadastro realizado com sucesso'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"ID in response matches the requested ID": true,
+					"Success message is 'Cadastro realizado com sucesso'": true
+				}
+			]
+		},
+		{
+			"id": "c6513264-2d22-41f6-b377-7cea36642343",
+			"name": "PUT/usuarios-editar-sc400-Obrigatoriedade-campos",
+			"url": "http://localhost:3000/usuarios/fulano@qa.com",
+			"time": 4,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400 Bad Request": true,
+				"Nome validation error message": true,
+				"Email validation error message": true,
+				"Password validation error message": true,
+				"Administrador validation error message": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400 Bad Request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Nome validation error message": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Email validation error message": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Password validation error message": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Administrador validation error message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 400 Bad Request": true,
+					"Nome validation error message": true,
+					"Email validation error message": true,
+					"Password validation error message": true,
+					"Administrador validation error message": true
+				}
+			]
+		},
+		{
+			"id": "e8521341-d66b-42f4-80d9-0eb645e4151b",
+			"name": "PUT/usuarios-editar-sc400-Email-sendo-usado",
+			"url": "http://localhost:3000/usuarios/vrRTTQfrlxCYNVJV",
+			"time": 4,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response time is within an acceptable range": true,
+				"Status code is 400 Bad Request": true,
+				"Error message is 'Este email já está sendo usado'": true
+			},
+			"testPassFailCounts": {
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400 Bad Request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error message is 'Este email já está sendo usado'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Response time is within an acceptable range": true,
+					"Status code is 400 Bad Request": true,
+					"Error message is 'Este email já está sendo usado'": true
+				}
+			]
+		},
+		{
+			"id": "7f51dd15-3e9f-4f32-9b5e-9179c27bc0e4",
+			"name": "GET/usuarios-listar-sc200",
+			"url": "http://localhost:3000/usuarios",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true,
+				"Response contains attribute \"quantidade\"": true,
+				"Response contains attribute \"usuarios\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains attribute \"quantidade\"": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains attribute \"usuarios\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response contains attribute \"quantidade\"": true,
+					"Response contains attribute \"usuarios\"": true
+				}
+			]
+		},
+		{
+			"id": "83823628-1430-4d15-92b3-eaf5dda932b1",
+			"name": "GET/usuarios-buscarID-sc200",
+			"url": "http://localhost:3000/usuarios/C8PNliRTCV1XBvAT",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is within an acceptable range": true,
+				"Status code is 200": true,
+				"String contained in the body": true
+			},
+			"testPassFailCounts": {
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"String contained in the body": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Response time is within an acceptable range": true,
+					"Status code is 200": true,
+					"String contained in the body": true
+				}
+			]
+		},
+		{
+			"id": "1b5e30cf-0bff-4be4-9bca-1ebe30cea456",
+			"name": "GET/usuarios-lbuscarID-sc400-Usuario-não-encontrado",
+			"url": "http://localhost:3000/usuarios/642",
+			"time": 4,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response time is within an acceptable range": true,
+				"Status code is 400": true,
+				"error message when id is invalid": true
+			},
+			"testPassFailCounts": {
+				"Response time is within an acceptable range": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"error message when id is invalid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Response time is within an acceptable range": true,
+					"Status code is 400": true,
+					"error message when id is invalid": true
+				}
+			]
+		},
+		{
+			"id": "33cf1df9-1a5d-41c5-9b99-f78194fc59ba",
+			"name": "DELETE/usuarios-excluir-sc200-Registro-Excluido-Sucesso",
+			"url": "http://localhost:3000/usuarios/zxt3dvP3PWHvayYa",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Response contains \"message\" attribute and includes \"Registro excluído com sucesso\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains \"message\" attribute and includes \"Registro excluído com sucesso\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Response contains \"message\" attribute and includes \"Registro excluído com sucesso\"": true
+				}
+			]
+		},
+		{
+			"id": "1b14ec50-99ea-4462-8258-02c96b86c260",
+			"name": "DELETE/usuarios-excluir-sc200-Nenhum-Registro-Excluido",
+			"url": "http://localhost:3000/usuarios/609",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Response contains \"message\" attribute and includes \"Nenhum registro excluído\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains \"message\" attribute and includes \"Nenhum registro excluído\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Response contains \"message\" attribute and includes \"Nenhum registro excluído\"": true
+				}
+			]
+		},
+		{
+			"id": "f57337fc-4f60-4385-8a24-f20c7d1c117f",
+			"name": "DELETE/usuarios-excluir-sc400-Usuario-Carrinho-Cadastrado",
+			"url": "http://localhost:3000/usuarios/kNt6dL2bCXOOKnfG",
+			"time": 4,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Response time is less than 800ms": true,
+				"Response contains \"idCarrinho\" attribute and includes \"Não é permitido excluir usuário com carrinho cadastrado\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 800ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains \"idCarrinho\" attribute and includes \"Não é permitido excluir usuário com carrinho cadastrado\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Response time is less than 800ms": true,
+					"Response contains \"idCarrinho\" attribute and includes \"Não é permitido excluir usuário com carrinho cadastrado\"": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 111,
+	"collection": {
+		"requests": [
+			{
+				"id": "45f96fe8-e5d8-4040-9f71-e5d8f512fda1",
+				"method": "POST"
+			},
+			{
+				"id": "90a229ef-3544-403b-91f9-d33ef0795a9b",
+				"method": "POST"
+			},
+			{
+				"id": "da7d1640-5fc8-43e7-962d-71142e706dbe",
+				"method": "POST"
+			},
+			{
+				"id": "48af98ed-2a70-4203-8855-79aad30e4018",
+				"method": "POST"
+			},
+			{
+				"id": "b62592cd-81b0-498e-a1bc-6318d0159b50",
+				"method": "POST"
+			},
+			{
+				"id": "7948c1ad-e734-4552-8813-1d3d4de20330",
+				"method": "POST"
+			},
+			{
+				"id": "63ffe5d6-1d98-48d2-8a71-f23b36039be4",
+				"method": "POST"
+			},
+			{
+				"id": "b3ea1107-2025-44ab-b9a8-1b8da2c868b5",
+				"method": "POST"
+			},
+			{
+				"id": "642b2f27-8c64-46c5-89d4-50dc1cf3f3bd",
+				"method": "POST"
+			},
+			{
+				"id": "b4f6e88e-f4df-444b-98f4-cb5baeac3c7c",
+				"method": "POST"
+			},
+			{
+				"id": "365afd57-f43f-49b8-bd4b-8549103ea85c",
+				"method": "POST"
+			},
+			{
+				"id": "c37af453-9fbf-47e3-9ab7-7eef34678e21",
+				"method": "POST"
+			},
+			{
+				"id": "881c45ca-fa4e-4692-9bb4-377064780ca5",
+				"method": "POST"
+			},
+			{
+				"id": "481052f1-5f38-4545-9817-efe50f69cd9b",
+				"method": "POST"
+			},
+			{
+				"id": "e58a5b19-8cef-464c-800c-823be6e30640",
+				"method": "POST"
+			},
+			{
+				"id": "31e28b9f-8556-42d1-84e7-447abb610697",
+				"method": "POST"
+			},
+			{
+				"id": "e2220f60-6627-4234-80f3-370e60b3cafb",
+				"method": "PUT"
+			},
+			{
+				"id": "e1467441-0dfe-462c-bca6-66a03c325cfa",
+				"method": "PUT"
+			},
+			{
+				"id": "c6513264-2d22-41f6-b377-7cea36642343",
+				"method": "PUT"
+			},
+			{
+				"id": "e8521341-d66b-42f4-80d9-0eb645e4151b",
+				"method": "PUT"
+			},
+			{
+				"id": "7f51dd15-3e9f-4f32-9b5e-9179c27bc0e4",
+				"method": "GET"
+			},
+			{
+				"id": "83823628-1430-4d15-92b3-eaf5dda932b1",
+				"method": "GET"
+			},
+			{
+				"id": "1b5e30cf-0bff-4be4-9bca-1ebe30cea456",
+				"method": "GET"
+			},
+			{
+				"id": "33cf1df9-1a5d-41c5-9b99-f78194fc59ba",
+				"method": "DELETE"
+			},
+			{
+				"id": "1b14ec50-99ea-4462-8258-02c96b86c260",
+				"method": "DELETE"
+			},
+			{
+				"id": "f57337fc-4f60-4385-8a24-f20c7d1c117f",
+				"method": "DELETE"
+			}
+		]
+	}
+}
