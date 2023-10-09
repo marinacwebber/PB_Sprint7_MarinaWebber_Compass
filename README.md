@@ -24,8 +24,10 @@ utilizando como base os critérios de aceitação da User Story do challenge e a
 - Login: POST 
 - Usuários: POST, GET, PUT, DELETE 
 
-* Dentro de cada um desse cenários foi utilizado, através das pré requestes e dos testes, endpoints de diferentes métodos: 
-- Rotas Login => POST/usuarios - DELETE/usuarios.<br>
+## Considerações
+
+Dentro de cada um desse cenários foi utilizado, através das pré requestes e dos testes, endpoints de diferentes métodos: 
+- Rotas Login => POST/usuarios - DELETE/usuarios.
 - Rotas Usuários => POST/login, POST/produtos, POST/carrinhos, DELETE/produtos, DELETE/carrinhos
 ## Deploy - Realizar Pull Request 🤖
 
