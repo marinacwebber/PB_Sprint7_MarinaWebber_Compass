@@ -18,6 +18,9 @@ utilizando como base os critérios de aceitação da User Story do challenge e a
 
 - Validação Rota de Usuários (Testes: 65 Passed, 5 Failed)
 - Validação Rota de Login (Testes: 26 Passed, 2 Failed)
+![imagem](img.png) 
+![imagem2](img2.png) 
+![imagem3](img3.png) 
 
 ## Endpoints Automatizados
 
