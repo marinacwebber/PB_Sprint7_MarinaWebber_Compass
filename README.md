@@ -16,14 +16,17 @@ utilizando como base os critérios de aceitação da User Story do challenge e a
 
 ## Suítes de Testes 🚀
 
-- Validação Rota de Usuários
-- Validação Rota de Login
-- Validação Rota de Produtos
-- Validação Rota de Carrinhos 
-- Fluxo de Compra cadastrando usuario padrao 
-- Fluxo com administrador cadastrando e excluindo usuario (bugs)
-- Fluxo com administrador cadastrando produto e carrinho (bugs)
+- Validação Rota de Usuários (Testes: 65 Passed, 5 Failed)
+- Validação Rota de Login (Testes: 26 Passed, 2 Failed)
 
+## Endpoints Automatizados
+
+- Login: POST 
+- Usuários: POST, GET, PUT, DELETE 
+
+* Dentro de cada um desse cenários foi utilizado, através das pré requestes e dos testes, endpoints de diferentes métodos: 
+- Rotas Login => POST/usuarios - DELETE/usuarios.<br>
+- Rotas Usuários => POST/login, POST/produtos, POST/carrinhos, DELETE/produtos, DELETE/carrinhos
 ## Deploy - Realizar Pull Request 🤖
 
 Deseja contribuir e fazer alterações no projeto? Siga as seguintes etapas:
@@ -59,7 +62,7 @@ Este projeto foi desenvolvido com a ajuda de recursos de várias fontes, incluin
 - [Stack Overflow](https://stackoverflow.com/)
 - [Postman](https://www.postman.com/api-documentation-tool/)
 - [Udemy](https://compassuol.udemy.com/course/automacao-de-testes-de-api-com-postman-projeto-de-testes)
-- [Agradeço a equipe Rafael, Jacques, Daniela e aos colegas do time da bolsa] 
+- [Agradeço a equipe Rafael, Jacques, Daniela e aos colegas do time da bolsa] Valeu pessoal!! 
 
 ## Licença 📜 
 
