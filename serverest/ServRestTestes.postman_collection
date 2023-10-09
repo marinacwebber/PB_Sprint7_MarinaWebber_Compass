@@ -1,14 +1,13 @@
 {
 	"info": {
-		"_postman_id": "af4b5fcc-c5d7-4983-acb7-bc5512a41b0e",
-		"name": "Serverest",
-		"description": "API para testes [https://serverest.dev/](https://serverest.dev/)\n\nFluxo comprando cadastrando um usuário",
-		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_postman_id": "e6b76caf-77af-4277-82a5-137f177e2b82",
+		"name": "ServeRestTestes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "30065285"
 	},
 	"item": [
 		{
-			"name": "/login",
+			"name": "/login Copy",
 			"item": [
 				{
 					"name": "POST/login-admin-sc200",
@@ -117,7 +116,15 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/login"
+						"url": {
+							"raw": "{{baseUrl}}/login",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"login"
+							]
+						}
 					},
 					"response": []
 				},
@@ -162,7 +169,15 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/login"
+						"url": {
+							"raw": "{{baseUrl}}/login",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"login"
+							]
+						}
 					},
 					"response": []
 				},
@@ -207,7 +222,15 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/login"
+						"url": {
+							"raw": "{{baseUrl}}/login",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"login"
+							]
+						}
 					},
 					"response": []
 				},
@@ -252,7 +275,15 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/login"
+						"url": {
+							"raw": "{{baseUrl}}/login",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"login"
+							]
+						}
 					},
 					"response": []
 				},
@@ -300,7 +331,15 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/login"
+						"url": {
+							"raw": "{{baseUrl}}/login",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"login"
+							]
+						}
 					},
 					"response": []
 				},
@@ -348,7 +387,15 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/login"
+						"url": {
+							"raw": "{{baseUrl}}/login",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"login"
+							]
+						}
 					},
 					"response": []
 				},
@@ -459,7 +506,15 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/login"
+						"url": {
+							"raw": "{{baseUrl}}/login",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"login"
+							]
+						}
 					},
 					"response": []
 				}
@@ -467,7 +522,7 @@
 			"description": "[https://serverest.dev/login](https://serverest.dev/)"
 		},
 		{
-			"name": "/usuarios",
+			"name": "/usuarios Copy",
 			"item": [
 				{
 					"name": "POST/usuarios-cadastro-sc201",
@@ -554,7 +609,15 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/usuarios"
+						"url": {
+							"raw": "{{baseUrl}}/usuarios",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"usuarios"
+							]
+						}
 					},
 					"response": []
 				},
@@ -643,7 +706,15 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/usuarios"
+						"url": {
+							"raw": "{{baseUrl}}/usuarios",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"usuarios"
+							]
+						}
 					},
 					"response": []
 				},
@@ -749,7 +820,15 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/usuarios"
+						"url": {
+							"raw": "{{baseUrl}}/usuarios",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"usuarios"
+							]
+						}
 					},
 					"response": []
 				},
@@ -794,7 +873,15 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/usuarios"
+						"url": {
+							"raw": "{{baseUrl}}/usuarios",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"usuarios"
+							]
+						}
 					},
 					"response": []
 				},
@@ -839,7 +926,15 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/usuarios"
+						"url": {
+							"raw": "{{baseUrl}}/usuarios",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"usuarios"
+							]
+						}
 					},
 					"response": []
 				},
@@ -884,7 +979,15 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/usuarios"
+						"url": {
+							"raw": "{{baseUrl}}/usuarios",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"usuarios"
+							]
+						}
 					},
 					"response": []
 				},
@@ -930,7 +1033,15 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/usuarios"
+						"url": {
+							"raw": "{{baseUrl}}/usuarios",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"usuarios"
+							]
+						}
 					},
 					"response": []
 				},
@@ -980,7 +1091,15 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/usuarios"
+						"url": {
+							"raw": "{{baseUrl}}/usuarios",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"usuarios"
+							]
+						}
 					},
 					"response": []
 				},
@@ -1029,7 +1148,15 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/usuarios"
+						"url": {
+							"raw": "{{baseUrl}}/usuarios",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"usuarios"
+							]
+						}
 					},
 					"response": []
 				},
@@ -1163,7 +1290,16 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/usuarios/{{mass_userId}}"
+						"url": {
+							"raw": "{{baseUrl}}/usuarios/{{mass_userId}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"usuarios",
+								"{{mass_userId}}"
+							]
+						}
 					},
 					"response": []
 				},
@@ -1291,7 +1427,16 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/usuarios/{{mass_userIdExtra}}"
+						"url": {
+							"raw": "{{baseUrl}}/usuarios/{{mass_userIdExtra}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"usuarios",
+								"{{mass_userIdExtra}}"
+							]
+						}
 					},
 					"response": []
 				},
@@ -1340,7 +1485,16 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/usuarios/{{email-admin}}"
+						"url": {
+							"raw": "{{baseUrl}}/usuarios/{{email-admin}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"usuarios",
+								"{{email-admin}}"
+							]
+						}
 					},
 					"response": []
 				},
@@ -1454,7 +1608,16 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/usuarios/{{mass_userId}}"
+						"url": {
+							"raw": "{{baseUrl}}/usuarios/{{mass_userId}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"usuarios",
+								"{{mass_userId}}"
+							]
+						}
 					},
 					"response": []
 				},
@@ -1568,7 +1731,15 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/usuarios"
+						"url": {
+							"raw": "{{baseUrl}}/usuarios",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"usuarios"
+							]
+						}
 					},
 					"response": []
 				},
@@ -1682,7 +1853,16 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/usuarios/{{mass_userId}}"
+						"url": {
+							"raw": "{{baseUrl}}/usuarios/{{mass_userId}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"usuarios",
+								"{{mass_userId}}"
+							]
+						}
 					},
 					"response": []
 				},
@@ -1792,7 +1972,16 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/usuarios/{{$randomInt}}"
+						"url": {
+							"raw": "{{baseUrl}}/usuarios/{{$randomInt}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"usuarios",
+								"{{$randomInt}}"
+							]
+						}
 					},
 					"response": []
 				},
@@ -1886,7 +2075,16 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/usuarios/{{mass_userId}}"
+						"url": {
+							"raw": "{{baseUrl}}/usuarios/{{mass_userId}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"usuarios",
+								"{{mass_userId}}"
+							]
+						}
 					},
 					"response": []
 				},
@@ -1994,7 +2192,16 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/usuarios/{{$randomInt}}"
+						"url": {
+							"raw": "{{baseUrl}}/usuarios/{{$randomInt}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"usuarios",
+								"{{$randomInt}}"
+							]
+						}
 					},
 					"response": []
 				},
@@ -2180,37 +2387,20 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/usuarios/{{mass_userId}}"
+						"url": {
+							"raw": "{{baseUrl}}/usuarios/{{mass_userId}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"usuarios",
+								"{{mass_userId}}"
+							]
+						}
 					},
 					"response": []
 				}
 			]
-		}
-	],
-	"auth": {
-		"type": "bearer",
-		"bearer": {
-			"token": "{{auth-token}}"
-		}
-	},
-	"event": [
-		{
-			"listen": "prerequest",
-			"script": {
-				"type": "text/javascript",
-				"exec": [
-					""
-				]
-			}
-		},
-		{
-			"listen": "test",
-			"script": {
-				"type": "text/javascript",
-				"exec": [
-					""
-				]
-			}
 		}
 	]
 }
